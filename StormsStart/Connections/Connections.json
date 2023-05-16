@@ -1,0 +1,27 @@
+{
+  "a8a571d5-4ad1-4b8e-a9aa-dffca36ad8be": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://viisaus.sharepoint.com": {
+        "dataSources": {
+          "StormsEnd-CRM": {
+            "tableName": "3351ce1c-3c6a-4a8c-b7ce-34fb220597b2"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "StormsEnd-CRM"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a8a571d5-4ad1-4b8e-a9aa-dffca36ad8be"
+  }
+}
